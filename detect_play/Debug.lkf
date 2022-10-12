@@ -1,0 +1,8 @@
+-z -c -o"./Debug/record.out" -stack0x1000 -w -x -i"c:/CCStudio_v3.1/C6000/dsk6713/lib" -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib" -l"rts6700.lib" -l"dsk6713bsl.lib" -l"csl6713.lib"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\C6713dsk.cmd"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\Debug\block_dc.obj"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\Debug\c6713dskinit.obj"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\Debug\detect_envelope.obj"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\Debug\detect_play.obj"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\Debug\slevel.obj"
+"C:\CCStudio_v3.1\MyProjects\Working2\detect_play\Debug\Vectors_intr.obj"

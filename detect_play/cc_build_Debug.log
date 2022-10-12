@@ -1,0 +1,18 @@
+--------------------------  detect_play.pjt - Debug  --------------------------
+[block_dc.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/Working2/detect_play/Debug" -i"c:/CCStudio_v3.1/C6000/dsk6713/include" -i"c:/CCStudio_v3.1/MyProjects/Support" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "block_dc.c"
+
+[detect_envelope.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/Working2/detect_play/Debug" -i"c:/CCStudio_v3.1/C6000/dsk6713/include" -i"c:/CCStudio_v3.1/MyProjects/Support" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "detect_envelope.c"
+
+[detect_play.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/Working2/detect_play/Debug" -i"c:/CCStudio_v3.1/C6000/dsk6713/include" -i"c:/CCStudio_v3.1/MyProjects/Support" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "detect_play.c"
+
+[slevel.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/Working2/detect_play/Debug" -i"c:/CCStudio_v3.1/C6000/dsk6713/include" -i"c:/CCStudio_v3.1/MyProjects/Support" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "slevel.c"
+
+[c6713dskinit.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/Working2/detect_play/Debug" -i"c:/CCStudio_v3.1/C6000/dsk6713/include" -i"c:/CCStudio_v3.1/MyProjects/Support" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "c6713dskinit.c"
+
+[Vectors_intr.asm] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/Working2/detect_play/Debug" -i"c:/CCStudio_v3.1/C6000/dsk6713/include" -i"c:/CCStudio_v3.1/MyProjects/Support" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "Vectors_intr.asm"
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

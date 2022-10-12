@@ -1,0 +1,40 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\detect_play\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\detect_play\block_dc.c"
+Source="..\detect_play\detect_envelope.c"
+Source="..\detect_play\detect_play.c"
+Source="..\detect_play\slevel.c"
+Source="c6713dskinit.c"
+Source="Vectors_intr.asm"
+Source="C6713dsk.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -i"c:\CCStudio_v3.1\C6000\dsk6713\include" -i"c:\CCStudio_v3.1\MyProjects\Support" -d"CHIP_6713" -mv6710 --mem_model:data=far
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -o".\Debug\record.out" -stack0x1000 -w -x -i"c:\CCStudio_v3.1\C6000\dsk6713\lib" -l"rts6700.lib" -l"dsk6713bsl.lib" -l"csl6713.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\chapter2.map" -o".\Release\chapter2.out" -w -x
+
+["C6713dsk.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["C6713dsk.cmd" Settings: "Release"]
+LinkOrder=1
+
